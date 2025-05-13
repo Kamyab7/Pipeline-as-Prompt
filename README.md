@@ -1,5 +1,8 @@
 # Pipeline-as-Prompt
-a CI/CD pipeline defined via natural language prompts rather than YAML files. Turning human-friendly instructions into structured automation.
+
+A CI/CD pipeline defined via natural language prompts rather than YAML files. Turning human-friendly instructions into structured automation.
+
+![Overview](./overview.png)
 
 ## 🧠 Concept Summary
 
