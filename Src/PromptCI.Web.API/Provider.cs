@@ -4,5 +4,6 @@ public enum Provider
 {
     Github,
     Gitlab,
-    Bitbucket
+    Bitbucket,
+    Mock
 }

@@ -2,6 +2,7 @@
 using PromptCI.Bitbucket.Provider;
 using PromptCI.Github.Provider;
 using PromptCI.Gitlab.Provider;
+using PromptCI.Mock.Provider;
 
 namespace PromptCI.Web.API;
 
@@ -14,6 +15,7 @@ public static class ProviderFactory
             Provider.Github => new GithubClient(),
             Provider.Gitlab => new GitlabClient(),
             Provider.Bitbucket => new BitbucketClient(),
+            Provider.Mock => new MockClient(),
             _ => throw new NotSupportedException($"Provider '{provider}' is not supported.")
         };
     }

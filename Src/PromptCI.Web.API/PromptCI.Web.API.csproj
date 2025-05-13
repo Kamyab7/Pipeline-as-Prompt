@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+    <PackageReference Include="Swashbuckle.AspNetCore" />
   </ItemGroup>
 
   <ItemGroup>
@@ -9,6 +9,7 @@
     <ProjectReference Include="..\PromptCI.Core\PromptCI.Core.csproj" />
     <ProjectReference Include="..\PromptCI.Github.Provider\PromptCI.Github.Provider.csproj" />
     <ProjectReference Include="..\PromptCI.Gitlab.Provider\PromptCI.Gitlab.Provider.csproj" />
+    <ProjectReference Include="..\PromptCI.Mock.Provider\PromptCI.Mock.Provider.csproj" />
   </ItemGroup>
 
 </Project>
