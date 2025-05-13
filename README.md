@@ -1,5 +1,7 @@
 # Pipeline-as-Prompt
 
+> **Note:** This project is still in progress and has not been fully built yet.
+
 A CI/CD pipeline defined via natural language prompts rather than YAML files. Turning human-friendly instructions into structured automation.
 
 ![Overview](./overview.png)
