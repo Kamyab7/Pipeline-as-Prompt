@@ -4,4 +4,11 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PromptCI.Bitbucket.Provider\PromptCI.Bitbucket.Provider.csproj" />
+    <ProjectReference Include="..\PromptCI.Core\PromptCI.Core.csproj" />
+    <ProjectReference Include="..\PromptCI.Github.Provider\PromptCI.Github.Provider.csproj" />
+    <ProjectReference Include="..\PromptCI.Gitlab.Provider\PromptCI.Gitlab.Provider.csproj" />
+  </ItemGroup>
+
 </Project>
